@@ -51,7 +51,7 @@ Data_repository_for_paper/
 | Figure folder | Paper | Contents |
 |---|---|---|
 | `Fig01_1D_benchmark_k0` | Main Fig. 1 | MA⁰ & MA¹ A(ω,k=0), T=0.4Ω (
-| `Fig02_3D_spectral_grid` | Main Fig. 2 (3×3 grid) | , 9 param sets, Ω∈{0.5,1,2}×λ∈{0.5,1,1.5} |
+| `Fig02_3D_spectral_grid` | Main Fig. 2 (3×3 subpanel plot) | , 9 param sets, Ω∈{0.5,1,2}×λ∈{0.5,1,1.5} |
 | `Fig03_eff_mass_lifetime` | Main Fig. 3 | m*/m₀ and η\* vs T (1D/2D/3D), Ω=2t |
 | `Fig05_1D_continuum_k` | End Matter | k-resolved MA¹ A(ω,k), 0≤k≤π/2, T=0.001/0.3/0.5 |
 
@@ -83,7 +83,7 @@ Folder names are `MA1_<dim>_Omega…_lam…_eta…`
 **External data policy.** Six benchmarking figures (`Fig01`, `FigS14_Overlap_kpi`,
 `FigS15_MA_DMFT_selfenergy`, `FigS16_MA_DMFT_diffk`, `FigS17_MA_VED`, `FigS18_VED_DMFT_MA`)
 are shown in the paper overlaid with **external** VED-FTLM / finite-T DMRG / DMFT
-curves that were shared privately with the authors. Please reach out to the original authors for the data.
+curves that were shared privately with the authors. Please reach out to the original authors for the data. You may find links/references in the original manuscript.
 
 ## File formats & column convention
 
@@ -96,7 +96,7 @@ curves that were shared privately with the authors. Please reach out to the orig
 Column 1 is always `omega_over_t` (ω/t). Spectral columns are headed
 `A_T<T>_ToverOmega<T/Ω>`; self-energy columns `ReSigma_T<T>`, `ImSigma_T<T>`.
 **Temperature `T` is stored in units of `t`**; figures label curves by `T/Ω` — both
-appear in every header. The CSV/TXT hold the **raw** A(ω);
+appear in every header. The CSV/TXT hold the A(ω);
 
 
 ## Code documentation is in "\Code Documentation"
